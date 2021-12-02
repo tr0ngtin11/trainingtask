@@ -1,0 +1,156 @@
+.payment {
+  width: 100%;
+  height: 550px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+/*Col 1 */
+.payment-card-1 {
+  display: flex;
+
+  align-items: center;
+  height: 400px;
+  width: 350px;
+  border: none;
+}
+
+.payment-card-title {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  max-width: 250px;
+}
+
+.payment-card-body {
+  position: relative;
+  margin-top: 100px;
+}
+.payment-icon-bg {
+  position: absolute;
+  padding: 13px;
+  background-color: #ce9699;
+  left: 40px;
+  margin-top: 5px;
+}
+
+.payment-icon {
+  color: #fff;
+}
+
+.payment-card-text {
+  max-width: 230px;
+  min-width: 200px;
+  margin-left: 80px;
+}
+/*Col 2*/
+
+.payment-card-2 {
+  height: 450px;
+  width: 300px;
+  background-color: #d9d9d9;
+  border-radius: 50px;
+}
+
+.payment-card-2-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-card-2-title p:first-child {
+  font-weight: 500;
+  margin-left: 25px;
+  font: size 1.2rem;
+  margin-top: 30px;
+}
+
+.payment-card-2-title p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-right: 25px;
+  margin-top: 30px;
+}
+
+.payment-card-2-subtitle {
+  margin-left: 25px;
+  width: calc(100% - 40px);
+  border-bottom: 3px #ffffff solid;
+
+  padding-bottom: 25px;
+}
+
+.payment-card-2-subtitle-2 {
+  margin-left: 9px;
+}
+
+.payment-card-2-listcontent {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 9px;
+  padding-left: 0;
+}
+
+.payment-card-2-item {
+  display: flex;
+}
+
+.payment-card-2-item-icon {
+  color: #fff;
+  margin-top: 3px;
+  font-size: 0.8rem;
+}
+
+.payment-card-2-item-text {
+  margin-left: 15px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.payment-card-button {
+  color: #111111;
+  background-color: #ffff;
+  background-image: none;
+  border-style: none;
+  font-weight: 400;
+  margin: 35px 0 0 8px;
+  padding: 5px 60px;
+}
+
+.payment-card-button:hover {
+  background-color: #e6e6e6;
+}
+
+/*Col 3*/
+.payment-card-3 {
+  height: 450px;
+  width: 300px;
+  background-color: #ce9699;
+  border-radius: 50px;
+}
+
+.payment-card-3-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-card-3-title p:first-child {
+  font-weight: 500;
+  margin-left: 25px;
+  font: size 1.2rem;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.payment-card-3-title p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-right: 25px;
+  margin-top: 30px;
+  color: #fff;
+}

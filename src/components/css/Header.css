@@ -1,0 +1,23 @@
+.posFaTimes {
+  position: absolute;
+  top: 1rem;
+  left: 11rem;
+  font-size: 1.6rem;
+}
+
+@keyframes sidebarFadeIn {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.btn-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: none;
+  box-shadow: none !important;
+}

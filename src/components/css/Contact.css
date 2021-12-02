@@ -1,0 +1,128 @@
+.contact {
+  width: 100%;
+  height: 550px;
+  background-color: #ebd2d3;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Col 1*/
+.contact-card-1 {
+  height: 400px;
+  width: 350px;
+  background-color: #ebd2d3;
+  border: none;
+}
+
+.contact-card-title {
+  font-size: 2.25rem;
+  text-transform: none;
+  font-weight: 700;
+  margin: 0 auto 0 0;
+}
+
+.contact-card-subtitle {
+  font-weight: 700;
+  line-height: 1.8;
+  font-size: 1.125rem;
+  font-style: normal;
+  margin: 20px 2px 0 0;
+}
+
+.contact-card-text {
+  line-height: 2;
+  margin: 20px 2px 0 0;
+}
+
+.logo-social {
+  white-space: nowrap;
+  height: 20px;
+  min-height: 16px;
+  width: 139px;
+  min-width: 50px;
+  margin: 21px auto 0 0;
+}
+
+.contact-card-list-logo-social {
+  display: flex;
+}
+
+/*col 2*/
+.card-2-title {
+  font-size: 1.5rem;
+  text-transform: none;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-2-title {
+  margin-top: 15px;
+}
+
+.card-2-text {
+  margin: 20px 148px 10px 0;
+}
+
+.card-2-listcheck {
+  list-style: none;
+}
+
+.card-2-listcheck-item {
+  display: flex;
+  margin-left: -28px;
+  margin-bottom: -10px;
+}
+
+ul > li > p {
+  margin-left: 15px;
+}
+
+.contact-icon {
+  text-align: center;
+  width: 0.8rem;
+  margin-top: 3px;
+}
+
+.contact-card-2 {
+  background-color: #ebd2d3;
+  border: none;
+}
+
+/*Col */
+
+.contact-input {
+  display: block;
+  width: 50%;
+  padding: 10px 12px;
+
+  background-clip: padding-box;
+  border: 1px solid #fff;
+  border-radius: 12px;
+
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.contact-input-textexa {
+  width: 50%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-card-3-btn {
+  color: #ffffff;
+  background-color: #ce9699;
+  border-radius: 12px;
+  text-align: center;
+  width: 50%;
+  padding: 10px 40px;
+  border: none;
+  font-size: 1.2rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.contact-card-3-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}

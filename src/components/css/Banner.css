@@ -1,0 +1,117 @@
+/* Button Header */
+.btn-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: none;
+  box-shadow: none !important;
+}
+.opa-7 {
+  opacity: 0.7;
+  border: none;
+}
+
+/* Banner Left */
+.banner-left {
+  background-color: #ce9699;
+  min-height: 537px;
+  position: relative;
+}
+
+.banner-image-left {
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 395px;
+  object-position: 50% 0%;
+  margin: 42px auto 0 0;
+}
+/* Banner Right */
+.banner-right {
+  background-color: #ffffff;
+  border: none;
+  position: relative;
+}
+.banner-card-right {
+  height: 250px !important;
+  margin-left: 30px !important;
+  border: none !important;
+  background-color: #ffffff;
+}
+
+.banner-subtitle-right {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 89px !important;
+}
+.banner-text-right {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-top: 60px;
+  line-height: 3rem;
+  max-width: 460px;
+}
+
+.banner-btn-right {
+  border-style: none !important  ;
+  background-image: none;
+  text-transform: uppercase;
+  font-size: 0.675rem !important;
+  letter-spacing: 3px;
+  margin: 60px auto 0 0;
+  padding: 13px 30px 14px;
+  background-color: #ce9699 !important;
+  cursor: pointer;
+}
+.banner-btn-right:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Sibebar */
+.side-bar {
+  display: block;
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(7 6 6 / 93%);
+  overflow: hidden;
+  color: #fff;
+  animation: sidebarFadeIn ease-in-out 0.35s;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+}
+@keyframes sidebarFadeIn {
+  from {
+    transform: translateX(-150px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.posFaTimes {
+  position: absolute;
+  top: 1rem;
+  left: 11rem;
+  font-size: 1.6rem;
+}
+
+.opct {
+  opacity: 0.7;
+  background-color: #000000;
+  animation: OpactFadein 0.5s;
+}
+
+@keyframes OpactFadein {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.7;
+  }
+}

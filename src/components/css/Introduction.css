@@ -1,0 +1,73 @@
+/*Card left*/
+
+.introduction {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+}
+
+.introduct-col-left {
+  height: 300px;
+  width: 450px;
+  display: flex;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.introduct-card-left {
+  background-color: #ce9699;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  text-align: left;
+}
+
+.introduct-card-title-left {
+  color: #ffffff;
+  text-transform: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 5px 0 13px;
+  line-height: 1.15;
+  box-sizing: border-box;
+  max-width: 350px;
+}
+
+.introduct-card-text-left {
+  color: #ffffff;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  min-width: 200px;
+  padding: 0 0 25px;
+}
+
+.introduct {
+  margin-left: 12px;
+  margin-top: 45px;
+  margin-bottom: 5px !important;
+}
+
+.introduct-card-body-left {
+  padding-top: 0 !important;
+}
+
+/*Card right*/
+.introduct-col-right {
+  display: flex;
+  margin-left: 20px;
+  height: 250px;
+  width: 365px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.introduct-card-text-right {
+  padding: 30px;
+  color: #000;
+  font-weight: 100;
+  max-width: 350px;
+}
