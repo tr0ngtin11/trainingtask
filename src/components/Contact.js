@@ -44,7 +44,7 @@ function Contact(props) {
           </span>
         </Card>
       </Col>
-      <Col md={3}>
+      <Col md={4}>
         <Card className="contact-card-2 offset-md-5">
           <CardTitle className="card-2-title">Сall us</CardTitle>
           <CardText className="card-2-text">
