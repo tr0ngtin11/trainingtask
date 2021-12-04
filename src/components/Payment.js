@@ -16,7 +16,7 @@ Payment.propTypes = {};
 function Payment(props) {
   return (
     <Row className="payment">
-      <Col className="offset-md-2 center " md={3}>
+      <Col className=" center " md={3}>
         <Card className="payment-card-1">
           <CardTitle className="payment-card-title">
             Start saving time with Module

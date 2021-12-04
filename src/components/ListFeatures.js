@@ -32,7 +32,7 @@ function ListFeatures(props) {
         </CardSubtitle>
       </Row>
       <Row>
-        <Col className="col-12 col-md-4 offset-md-3 col-left">
+        <Col className="col-12 col-md-4 offset-md-2 col-left">
           <Card className=" Card-left-r2">
             <span className="code-icon-bg">
               <FaCode className="code-icon" />
@@ -62,7 +62,7 @@ function ListFeatures(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="col-12 col-md-4 offset-md-3 col-left">
+        <Col className="col-12 col-md-4 offset-md-2 col-left">
           <Card className=" Card-left-r2">
             <span className="code-icon-bg">
               <FaLock className="code-icon-shared" />
@@ -92,7 +92,7 @@ function ListFeatures(props) {
         </Col>
       </Row>
       <Row>
-        <Col className="col-12 col-md-4 offset-md-3 col-left">
+        <Col className="col-12 col-md-4 offset-md-2 col-left">
           <Card className=" Card-left-r2">
             <span className="code-icon-bg">
               <FaSort className="code-icon-shared" />

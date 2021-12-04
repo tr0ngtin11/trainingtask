@@ -8,7 +8,7 @@ Introduction.propTypes = {};
 function Introduction(props) {
   return (
     <Row className="introduction">
-      <Col className="col-md-5 offset-md-3 introduct-col-left">
+      <Col className="col-md-5 offset-md-2 introduct-col-left">
         <Card className="introduct-card-left">
           <span className="introduct code-icon-bg">
             <FaUser className=" code-icon-shared" />

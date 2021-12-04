@@ -24,7 +24,7 @@ Contact.propTypes = {};
 function Contact(props) {
   return (
     <Row className="contact">
-      <Col className="offset-md-0 col-md-3">
+      <Col className="offset-md-0 col-md-2">
         <Card className="contact-card-1">
           <CardTitle className="contact-card-title">Get in touch</CardTitle>
           <CardSubtitle className="contact-card-subtitle">
@@ -44,7 +44,7 @@ function Contact(props) {
           </span>
         </Card>
       </Col>
-      <Col md={4}>
+      <Col md={3}>
         <Card className="contact-card-2 offset-md-5">
           <CardTitle className="card-2-title">Сall us</CardTitle>
           <CardText className="card-2-text">
@@ -70,7 +70,7 @@ function Contact(props) {
           </ul>
         </Card>
       </Col>
-      <Col className="contact-card-3 col-md-5  ">
+      <Col className="contact-card-3 col-md-3  ">
         <Input
           className="contact-input"
           id="Name"
@@ -95,7 +95,7 @@ function Contact(props) {
           name="text"
           type="textarea"
         />
-        <Button className="contact-card-3-btn">Submit</Button>
+        <Button className="contact-card-3-btn">SUBMIT</Button>
       </Col>
     </Row>
   );
