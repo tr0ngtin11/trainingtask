@@ -1,16 +1,18 @@
-.posFaTimes {
-  position: absolute;
-  top: 1rem;
-  left: 11rem;
-  font-size: 1.6rem;
-}
-
 @keyframes sidebarFadeIn {
   from {
     transform: translateX(-100px);
   }
   to {
     transform: translateX(0);
+  }
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
   }
 }
 .btn-header {
@@ -20,4 +22,47 @@
   position: relative;
   border: none;
   box-shadow: none !important;
+}
+
+.modal {
+  opacity: 1;
+  display: block;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 1s ease-in-out;
+  animation: FadeIn 1s;
+}
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 200px;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: sidebarFadeIn ease 0.5s;
+}
+
+.posFaTimes {
+  font-size: 1.6rem;
+  margin-top: -10px;
+  margin-left: -7px;
+}
+
+.sidebar-listitems {
+  list-style: none;
+  text-align: center;
+  margin: 50px 30px 0 0;
+}
+
+.sidebar-listitems > li {
+  font-size: 0.7rem;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.sidebar-listitems > li:hover {
+  color: #a1a1a1;
 }

@@ -47,10 +47,3 @@ function Banner(props) {
 }
 
 export default Banner;
-
-{
-  /* <Col  className=" col-md-6 banner">
-
-        </Col>
-        <Col col-md-6></Col> */
-}
